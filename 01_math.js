@@ -18,6 +18,10 @@ let multiply = function(number1, number2) {
 let divide = function(number1, number2) {
 	return number1 / number2;
 }
+// Exponentiation Function.
+let exponent = function(number1, number2) {
+	return number1 ** number2;
+}
 
 // // 1. Takes in user input as string.
 // var number1 = prompt("Enter a number:");
@@ -52,3 +56,7 @@ alert(number1 + " * " + number2 + " = " + multiplyResult);
 let divideResult = divide(number1, number2);
 console.log(typeof(divideResult));
 alert(number1 + " / " + number2 + " = " + divideResult);
+
+let exponentResult = exponent(number1, number2);
+console.log(typeof(exponentResult));
+alert(number1 + " ** " + number2 + " = " + exponentResult);
